@@ -1037,6 +1037,7 @@ asset_name_data.columns = make_unique_columns(asset_name_data.columns)
 optimal_model = pd.DataFrame()
 
 app = dash.Dash(__name__, external_stylesheets=['assets/all.css'])
+server = app.server
 
 asset_names = ['Alternatives', 'Alternatives', 'Cash and Term Deposits', 'Cash and Term Deposits', 'Fixed Income', 'Commodities', 'International Securities', 'International Securities', 'Australian Securities', 'Australian Securities', 'Australian Securities', 'Australian Securities', 'International Securities', 'International Securities', 'International Securities', 'International Securities', 'International Securities', 'Infrastructure', 'International Securities', 'Private Equity', 'Fixed Income', 'Fixed Income', 'Fixed Income', 'Fixed Income', 'Fixed Income', 'Fixed Income', 'Fixed Income', 'Alternatives', 'Property', 'Property', 'Property']
 
